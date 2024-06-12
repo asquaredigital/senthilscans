@@ -10,7 +10,16 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+
   </head>
+
+  <script>
+    $(function () { 
+        $("#footer").load("footer.html");
+    });
+</script>
+
   <body>
     <div class="preloader">
       <div class="preloader-body">
@@ -67,7 +76,7 @@
                       <li class="rd-nav-item active"><a class="rd-nav-link" href="about.html">About</a>
                       </li> 
                        
-                      <li class="rd-nav-item "><a class="rd-nav-link" href="services.html">Services</a>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="services.html">Services</a>
                       </li> 
                       <li class="rd-nav-item"><a class="rd-nav-link" href="grid-gallery.html">Gallery</a>
                         <!-- <ul class="rd-menu rd-navbar-dropdown">
@@ -81,7 +90,7 @@
                           </li>
                         </ul> -->
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="blog-masonry.html">Blog</a>
+                      <li class="rd-nav-item "><a class="rd-nav-link" href="blog-masonry.html">Blog</a>
                         <!-- <ul class="rd-menu rd-navbar-dropdown">
                           <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="blog-masonry.html">Blog Masonry</a>
                           </li>
@@ -91,12 +100,12 @@
                           </li>
                           <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="blog-grid.html">Blog Grid</a>
                           </li>
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="single-post.html">Single Post</a>
+                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="event-details.html">Single Post</a>
                           </li>
                         </ul> -->
                       </li>
                       
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="events.html">Events</a>
+                      <li class="rd-nav-item  "><a class="rd-nav-link" href="events.html">Events</a>
                       </li>
 
                       <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contacts</a>
@@ -124,6 +133,17 @@
       <section class="section-lg bg-default text-start section">
         <div class="container">
           <div class="row justify-content-sm-center row-30">
+
+            <div class="col-sm-12 col-lg-10">
+              <h3>A Few Words About Us</h3>
+              <div class="offset-top-20 offset-lg-top-60">
+                <p>Senthil Scans, the popular Radiodiagnostic centre in Thanjavur started in 2012, is now a full-fledged, advanced centre. The centre is equipped with all state of art machines for a diagnostic centre including Ultrasound, CT scan, MRI scan, Mammogram, XRay, Laboratory, etc.,
+                </p>
+                <p>
+                  All Radiodiagnostic investigations and lab facilities under one roof!
+                </p>
+              </div>
+            </div>
            
             <div class="col-sm-10 col-lg-5"> 
               <div class="offset-top-30">
@@ -230,227 +250,77 @@
       </section>
       <!-- Our team-->
        
-      <!-- testimonials-->
-      <section class="section-lg section bg-default-liac">
-        <div class="container">
-          <h3 class="text-center">Testimonials</h3>
-          <div class="offset-top-66">
-            <div class="owl-carousel owl-carousel-default owl-carousel-class-light" data-loop="false" data-margin="15" data-items="1" data-dots="true" data-mouse-drag="false" data-lg-items="3" data-owl="{&quot;dots&quot;:true,&quot;nav&quot;:false,&quot;autoplayTimeout&quot;:3500}">
-              <div class="item">
-                <blockquote class="quote quote-classic">
-                  <div class="quote-body">
-                    <p class="font-italic text-gray-dark">
-                      <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ligula tellus, vestibulum a velit at, cursus iaculis quam. Ut tempus augue non tellus semper convallis.</q>
-                    </p>
-                    <div class="quote-meta unit flex-row unit-spacing-sm align-items-center">
-                      <div class="unit-left unit-item-narrow"><img class="rounded-circle quote-img" width="60" height="60" src="images/users/user-betty-wade-60x60.jpg" alt=""/></div>
-                      <div class="unit-body unit-item-wide">
-                        <h5 class="quote-author text-capitalize font-weight-bold text-primary">
-                          <cite class="text-normal">Betty Wade</cite>
-                        </h5>
-                        <p class="quote-desc text-capitalize text-gray font-italic">Regular Patient</p>
-                      </div>
+     <!-- testimonials-->
+     <section class="section-lg bg-default-liac">
+      <div class="container">
+        <h3 class="text-center">Testimonials</h3>
+        <div class="offset-top-66">
+          <div class="owl-carousel owl-carousel-default owl-carousel-class-light" data-loop="false" data-items="1" data-dots="true" data-mouse-drag="false" data-lg-items="2" data-nav="false" data-owl="{&quot;dots&quot;:true,&quot;nav&quot;:false,&quot;autoplayTimeout&quot;:3500}">
+            <div class="item">
+              <blockquote class="quote quote-classic">
+                <div class="quote-body">
+                  <p class="font-italic text-gray-dark">
+                    <q>The radiographer and radiologist very well work and service and scan centre is good architecture. Keep it up nd very clean in restroom.</q>
+                  </p>
+                  <div class="quote-meta unit flex-row unit-spacing-sm align-items-center">
+                    <!-- <div class="unit-left unit-item-narrow"><img class="rounded-circle quote-img" width="60" height="60" src="images/users/user-betty-wade-60x60.jpg" alt=""/></div> -->
+                    <div class="unit-body unit-item-wide">
+                      <h5 class="quote-author text-capitalize font-weight-bold text-primary">
+                        <cite class="text-normal">Karthik</cite>
+                      </h5>
+                      <p class="quote-desc text-capitalize text-gray font-italic">Patient</p>
                     </div>
                   </div>
-                </blockquote>
-              </div>
-              <div class="item">
-                <blockquote class="quote quote-classic">
-                  <div class="quote-body">
-                    <p class="font-italic text-gray-dark">
-                      <q>Proin luctus augue vel egestas aliquam. Etiam rhoncus erat nisi, at molestie dolor pellentesque vel. Praesent leo est, molestie id mauris ut, ornare dictum massa.</q>
-                    </p>
-                    <div class="quote-meta unit flex-row unit-spacing-sm align-items-center">
-                      <div class="unit-left unit-item-narrow"><img class="rounded-circle quote-img" width="60" height="60" src="images/users/user-bryan-green-60x60.jpg" alt=""/></div>
-                      <div class="unit-body unit-item-wide">
-                        <h5 class="quote-author text-capitalize font-weight-bold text-primary">
-                          <cite class="text-normal">Bryan Green</cite>
-                        </h5>
-                        <p class="quote-desc text-capitalize text-gray font-italic">Regular Patient</p>
-                      </div>
-                    </div>
-                  </div>
-                </blockquote>
-              </div>
-              <div class="item">
-                <blockquote class="quote quote-classic">
-                  <div class="quote-body">
-                    <p class="font-italic text-gray-dark">
-                      <q>Suspendisse pharetra purus a sollicitudin pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.  Cras et diam tempus, ultrices.</q>
-                    </p>
-                    <div class="quote-meta unit flex-row unit-spacing-sm align-items-center">
-                      <div class="unit-left unit-item-narrow"><img class="rounded-circle quote-img" width="60" height="60" src="images/users/user-joan-anderson-60x60.jpg" alt=""/></div>
-                      <div class="unit-body unit-item-wide">
-                        <h5 class="quote-author text-capitalize font-weight-bold text-primary">
-                          <cite class="text-normal">Joan Anderson</cite>
-                        </h5>
-                        <p class="quote-desc text-capitalize text-gray font-italic">Regular Patient</p>
-                      </div>
-                    </div>
-                  </div>
-                </blockquote>
-              </div>
-              <div class="item">
-                <blockquote class="quote quote-classic">
-                  <div class="quote-body">
-                    <p class="font-italic text-gray-dark">
-                      <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ligula tellus, vestibulum a velit at, cursus iaculis quam. Ut tempus augue non tellus semper convallis.</q>
-                    </p>
-                    <div class="quote-meta unit flex-row unit-spacing-sm align-items-center">
-                      <div class="unit-left unit-item-narrow"><img class="rounded-circle quote-img" width="60" height="60" src="images/users/user-betty-wade-60x60.jpg" alt=""/></div>
-                      <div class="unit-body unit-item-wide">
-                        <h5 class="quote-author text-capitalize font-weight-bold text-primary">
-                          <cite class="text-normal">Betty Wade</cite>
-                        </h5>
-                        <p class="quote-desc text-capitalize text-gray font-italic">Regular Patient</p>
-                      </div>
-                    </div>
-                  </div>
-                </blockquote>
-              </div>
-              <div class="item">
-                <blockquote class="quote quote-classic">
-                  <div class="quote-body">
-                    <p class="font-italic text-gray-dark">
-                      <q>Proin luctus augue vel egestas aliquam. Etiam rhoncus erat nisi, at molestie dolor pellentesque vel. Praesent leo est, molestie id mauris ut, ornare dictum massa.</q>
-                    </p>
-                    <div class="quote-meta unit flex-row unit-spacing-sm align-items-center">
-                      <div class="unit-left unit-item-narrow"><img class="rounded-circle quote-img" width="60" height="60" src="images/users/user-bryan-green-60x60.jpg" alt=""/></div>
-                      <div class="unit-body unit-item-wide">
-                        <h5 class="quote-author text-capitalize font-weight-bold text-primary">
-                          <cite class="text-normal">Bryan Green</cite>
-                        </h5>
-                        <p class="quote-desc text-capitalize text-gray font-italic">Regular Patient</p>
-                      </div>
-                    </div>
-                  </div>
-                </blockquote>
-              </div>
-              <div class="item">
-                <blockquote class="quote quote-classic">
-                  <div class="quote-body">
-                    <p class="font-italic text-gray-dark">
-                      <q>Suspendisse pharetra purus a sollicitudin pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.  Cras et diam tempus, ultrices.</q>
-                    </p>
-                    <div class="quote-meta unit flex-row unit-spacing-sm align-items-center">
-                      <div class="unit-left unit-item-narrow"><img class="rounded-circle quote-img" width="60" height="60" src="images/users/user-joan-anderson-60x60.jpg" alt=""/></div>
-                      <div class="unit-body unit-item-wide">
-                        <h5 class="quote-author text-capitalize font-weight-bold text-primary">
-                          <cite class="text-normal">Joan Anderson</cite>
-                        </h5>
-                        <p class="quote-desc text-capitalize text-gray font-italic">Regular Patient</p>
-                      </div>
-                    </div>
-                  </div>
-                </blockquote>
-              </div>
-              <div class="item">
-                <blockquote class="quote quote-classic">
-                  <div class="quote-body">
-                    <p class="font-italic text-gray-dark">
-                      <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ligula tellus, vestibulum a velit at, cursus iaculis quam. Ut tempus augue non tellus semper convallis.</q>
-                    </p>
-                    <div class="quote-meta unit flex-row unit-spacing-sm align-items-center">
-                      <div class="unit-left unit-item-narrow"><img class="rounded-circle quote-img" width="60" height="60" src="images/users/user-betty-wade-60x60.jpg" alt=""/></div>
-                      <div class="unit-body unit-item-wide">
-                        <h5 class="quote-author text-capitalize font-weight-bold text-primary">
-                          <cite class="text-normal">Betty Wade</cite>
-                        </h5>
-                        <p class="quote-desc text-capitalize text-gray font-italic">Regular Patient</p>
-                      </div>
-                    </div>
-                  </div>
-                </blockquote>
-              </div>
-              <div class="item">
-                <blockquote class="quote quote-classic">
-                  <div class="quote-body">
-                    <p class="font-italic text-gray-dark">
-                      <q>Proin luctus augue vel egestas aliquam. Etiam rhoncus erat nisi, at molestie dolor pellentesque vel. Praesent leo est, molestie id mauris ut, ornare dictum massa.</q>
-                    </p>
-                    <div class="quote-meta unit flex-row unit-spacing-sm align-items-center">
-                      <div class="unit-left unit-item-narrow"><img class="rounded-circle quote-img" width="60" height="60" src="images/users/user-bryan-green-60x60.jpg" alt=""/></div>
-                      <div class="unit-body unit-item-wide">
-                        <h5 class="quote-author text-capitalize font-weight-bold text-primary">
-                          <cite class="text-normal">Bryan Green</cite>
-                        </h5>
-                        <p class="quote-desc text-capitalize text-gray font-italic">Patient</p>
-                      </div>
-                    </div>
-                  </div>
-                </blockquote>
-              </div>
-              <div class="item">
-                <blockquote class="quote quote-classic">
-                  <div class="quote-body">
-                    <p class="font-italic text-gray-dark">
-                      <q>Suspendisse pharetra purus a sollicitudin pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras et diam tempus, ultrices.</q>
-                    </p>
-                    <div class="quote-meta unit flex-row unit-spacing-sm align-items-center">
-                      <div class="unit-left unit-item-narrow"><img class="rounded-circle quote-img" width="60" height="60" src="images/users/user-joan-anderson-60x60.jpg" alt=""/></div>
-                      <div class="unit-body unit-item-wide">
-                        <h5 class="quote-author text-capitalize font-weight-bold text-primary">
-                          <cite class="text-normal">Joan Anderson</cite>
-                        </h5>
-                        <p class="quote-desc text-capitalize text-gray font-italic">Regular Patient</p>
-                      </div>
-                    </div>
-                  </div>
-                </blockquote>
-              </div>
+                </div>
+              </blockquote>
             </div>
+            <div class="item">
+              <blockquote class="quote quote-classic">
+                <div class="quote-body">
+                  <p class="font-italic text-gray-dark">
+                    <q>Good atmosphere ,all staffs are treated patients very well like as a friendly manner .Keep it up Dr.senthilnathan sir and Alli mam</q>
+                  </p>
+                  <div class="quote-meta unit flex-row unit-spacing-sm align-items-center">
+                    <!-- <div class="unit-left unit-item-narrow"><img class="rounded-circle quote-img" width="60" height="60" src="images/users/user-bryan-green-60x60.jpg" alt=""/></div> -->
+                    <div class="unit-body unit-item-wide">
+                      <h5 class="quote-author text-capitalize font-weight-bold text-primary">
+                        <cite class="text-normal">Subashini Subha</cite>
+                      </h5>
+                      <p class="quote-desc text-capitalize text-gray font-italic">Patient</p>
+                    </div>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+            <div class="item">
+              <blockquote class="quote quote-classic">
+                <div class="quote-body">
+                  <p class="font-italic text-gray-dark">
+                      <q>Kind caring of patient. Good scanning and clear report. Doctors and all staff are very good service. (especially iswarya  )  Best scan centre in Thanjavur.</q>
+                  </p>
+                  <div class="quote-meta unit flex-row unit-spacing-sm align-items-center">
+                    <!-- <div class="unit-left unit-item-narrow"><img class="rounded-circle quote-img" width="60" height="60" src="images/users/user-bryan-green-60x60.jpg" alt=""/></div> -->
+                    <div class="unit-body unit-item-wide">
+                      <h5 class="quote-author text-capitalize font-weight-bold text-primary">
+                        <cite class="text-normal">Sigamani S</cite>
+                      </h5>
+                      <p class="quote-desc text-capitalize text-gray font-italic">Patient</p>
+                    </div>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+            
           </div>
         </div>
-      </section>
+      </div>
+      <!-- RD Parallax-->
+    </section>
+
       <!-- Page Footer-->
       <footer class="section-relative section-top-66 section-bottom-34 page-footer bg-accent context-dark footer-classic">
-        <div class="container">
-          <div class="row justify-content-md-center text-xl-start">
-            <div class="col-md-8 col-lg-12">
-              <div class="row justify-content-sm-center row-40">
-                <div class="col-sm-10 col-lg-4 text-start order-lg-3 inset-lg-left-50">
-                  <h6>Social</h6>
-                  <hr class="text-subline">
-                  <ul class="list-inline">
-                    <li><a class="icon fa fa-facebook icon-xxs icon-circle icon-white" href="#"></a></li>
-                    <li><a class="icon fa fa-twitter icon-xxs icon-circle icon-white" href="#"></a></li>
-                    <li><a class="icon fa fa-google-plus icon-xxs icon-circle icon-white" href="#"></a></li>
-                    <li><a class="icon fa fa-rss icon-xxs icon-circle icon-white" href="#"></a></li>
-                  </ul>
-                </div>
-                <div class="col-sm-10 text-sm-start col-lg-4 order-lg-2">
-                  <h6>contact us</h6>
-                  <hr class="text-subline">
-                  <div class="text-center text-xl-start">
-                    <address class="contact-info d-md-inline-block text-start">
-                      <div class="p unit unit-spacing-xxs flex-row">
-                        <div class="unit-left"><span class="icon icon-xxs mdi mdi-phone text-white"></span></div>
-                        <div class="unit-body"><a class="text-white-70" href="tel:#">+91 93444 16662</a><span class="text-white-70"></span></div>
-                      </div>
-                      <div class="p unit flex-row unit-spacing-xxs">
-                        <div class="unit-left"><span class="icon icon-xxs mdi mdi-map-marker text-white"></span></div>
-                        <div class="unit-body"><a class="text-white-70" href="#">First Street, Arulanandha Nagar<br>Thanjavur - 613002</a></div>
-                      </div>
-                      <div class="p unit unit-spacing-xxs flex-row offset-top-16">
-                        <div class="unit-left"><span class="icon icon-xxs mdi mdi-email-outline text-white"></span></div>
-                        <div class="unit-body"><a class="text-white-70 text-java" href="mailto:#">senthilscans.tanjore@gmail.com</a></div>
-                      </div>
-                    </address>
-                  </div>
-                </div>
-                <div class="col-sm-10 col-lg-4 order-lg-1 text-center text-lg-start">
-                  <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo/senthil_logo5.png" alt="" width="77" height="26"/><img class="brand-logo-light" src="images/logo/senthil_logo5.png" alt="" width="77" height="26"/></a>
+        <div id="footer">
 
-                  <p>Senthil Scans is the diagnostic center of expertise and excellence, the center of perfection and satisfaction.</p>
-                 
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container offset-top-50 offset-md-top-60">
-          <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>Senthil Scans  .All right reserved. Designed by </span><span>&nbsp;</span> <a
-            href="https://www.asquare.tech" target="\blank">ASQUARE DIGITAL SOLUTIONS</a></p>
         </div>
       </footer>
     </div>

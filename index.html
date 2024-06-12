@@ -10,15 +10,14 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.6.0.min.js"></script> 
 
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
-          var video = document.querySelector('video');
-          video.onerror = function() {
-              console.error('Error loading video:', video.error);
-          };
+      $(function () {  
+          $("#footer").load("footer.html");
       });
   </script>
+ 
 
   <style>
       .map-container {
@@ -51,7 +50,10 @@
               <!--RD Navbar Brand-->
               <div class="rd-navbar-aside">
                 <div class="rd-navbar-brand">
-                  <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo/senthil_logo5.png" alt="" width="77" height="26"/><img class="brand-logo-light" src="images/logo/senthil_logo5.png" alt="" width="77" height="26"/></a>
+                  <!--Brand--><a class="brand" href="index.html">
+                    <img class="brand-logo-dark" src="images/logo/senthil_logo5.png" alt="" width="77" height="26"/>
+                    <img class="brand-logo-light" src="images/logo/senthil_logo5.png" alt="" width="77" height="26"/>
+                  </a>
                 </div>
                 <div class="contacts-wrap">
                   <address class="contact-info reveal-sm-inline-block text-start offset-none">
@@ -142,7 +144,7 @@
                       <div class="inset-xl-right-80 text-lg-start">
                         <h2>Take Care of<br class="d-block"> Your Health
                         </h2>
-                        <h5 class="d-none d-lg-block mw-400">At Medina, we are dedicated to diagnosing all kinds of diseases.</h5><a class="btn btn-ellipse btn-white offset-top-24" href="make-an-appointment.html">make an appointment</a>
+                        <h5 class="d-none d-lg-block mw-400">At Medina, we are dedicated to diagnosing all kinds of diseases.</h5><a class="btn btn-ellipse btn-white offset-top-24" href="#">make an appointment</a>
                       </div>
                     </div>
                   </div>
@@ -159,7 +161,7 @@
                       <div class="text-lg-start">
                         <h2>Years of<br class="d-block"> Experience
                         </h2>
-                        <h5 class="d-none d-lg-block mw-400">Since our foundation, we've been delivering diagnostic solutions.</h5><a class="btn btn-ellipse btn-white offset-top-24" href="make-an-appointment.html">make an appointment</a>
+                        <h5 class="d-none d-lg-block mw-400">Since our foundation, we've been delivering diagnostic solutions.</h5><a class="btn btn-ellipse btn-white offset-top-24" href="#">make an appointment</a>
                       </div>
                     </div>
                   </div>
@@ -175,7 +177,7 @@
                     <div class="col-lg-7 section-slider-custom">
                       <div class="text-lg-start">
                         <h2>Qualified Team<br class="d-block">of Experts</h2>
-                        <h5 class="d-none d-lg-block mw-400">Our team of diagnosticians is always ready to help you be healthier.</h5><a class="btn btn-ellipse btn-white offset-top-24" href="make-an-appointment.html">make an appointment</a>
+                        <h5 class="d-none d-lg-block mw-400">Our team of diagnosticians is always ready to help you be healthier.</h5><a class="btn btn-ellipse btn-white offset-top-24" href="#">make an appointment</a>
                       </div>
                     </div>
                   </div>
@@ -231,7 +233,7 @@
                     <p>The first step towards a healthy life  is to schedule an appointment. Please contact our office by phone or complete the appointment request form.</p>
                   </div>
                 </div>
-                <div class="sheldue-more"><a class="btn btn-white btn-block btn-rect" href="make-an-appointment.html">make an appointment</a></div>
+                <div class="sheldue-more"><a class="btn btn-white btn-block btn-rect" href="#">make an appointment</a></div>
               </div>
             </div>
             <div class="col-md-8 col-lg-5 col-xl-3">
@@ -280,7 +282,7 @@
         <div class="container text-center py-2"> 
             <div class="row d-flex justify-content-center">  
                 <video width="848" height="475" controls autoplay muted>
-                    <source src="../site/images/Video/senthil_scans.mp4" type="video/mp4">
+                    <source src="images/Video/senthil_scans.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div> 
@@ -357,13 +359,13 @@
                 <blockquote class="quote quote-classic">
                   <div class="quote-body">
                     <p class="font-italic text-gray-dark">
-                      <q>I had a colonoscopy at Medina Diagnostic Center. From the moment I entered the center, I was greeted and treated warmly and respectfully and it was the best experience.</q>
+                      <q>The radiographer and radiologist very well work and service and scan centre is good architecture. Keep it up nd very clean in restroom.</q>
                     </p>
                     <div class="quote-meta unit flex-row unit-spacing-sm align-items-center">
-                      <div class="unit-left unit-item-narrow"><img class="rounded-circle quote-img" width="60" height="60" src="images/users/user-betty-wade-60x60.jpg" alt=""/></div>
+                      <!-- <div class="unit-left unit-item-narrow"><img class="rounded-circle quote-img" width="60" height="60" src="images/users/user-betty-wade-60x60.jpg" alt=""/></div> -->
                       <div class="unit-body unit-item-wide">
                         <h5 class="quote-author text-capitalize font-weight-bold text-primary">
-                          <cite class="text-normal">Betty Wade</cite>
+                          <cite class="text-normal">Karthik</cite>
                         </h5>
                         <p class="quote-desc text-capitalize text-gray font-italic">Patient</p>
                       </div>
@@ -375,13 +377,13 @@
                 <blockquote class="quote quote-classic">
                   <div class="quote-body">
                     <p class="font-italic text-gray-dark">
-                      <q>I would like to thank and compliment the staff at Medina, including the outpatient, laboratory staff and cardiac division during my stay at your facility on July 9th and 10th.</q>
+                      <q>Good atmosphere ,all staffs are treated patients very well like as a friendly manner .Keep it up Dr.senthilnathan sir and Alli mam</q>
                     </p>
                     <div class="quote-meta unit flex-row unit-spacing-sm align-items-center">
-                      <div class="unit-left unit-item-narrow"><img class="rounded-circle quote-img" width="60" height="60" src="images/users/user-bryan-green-60x60.jpg" alt=""/></div>
+                      <!-- <div class="unit-left unit-item-narrow"><img class="rounded-circle quote-img" width="60" height="60" src="images/users/user-bryan-green-60x60.jpg" alt=""/></div> -->
                       <div class="unit-body unit-item-wide">
                         <h5 class="quote-author text-capitalize font-weight-bold text-primary">
-                          <cite class="text-normal">Bryan Green</cite>
+                          <cite class="text-normal">Subashini Subha</cite>
                         </h5>
                         <p class="quote-desc text-capitalize text-gray font-italic">Patient</p>
                       </div>
@@ -393,13 +395,13 @@
                 <blockquote class="quote quote-classic">
                   <div class="quote-body">
                     <p class="font-italic text-gray-dark">
-                      <q>I had a colonoscopy at Medina Diagnostic Center. From the moment I entered the center, I was greeted and treated warmly and respectfully and it was the best experience.</q>
+                        <q>Kind caring of patient. Good scanning and clear report. Doctors and all staff are very good service. (especially iswarya  )  Best scan centre in Thanjavur.</q>
                     </p>
                     <div class="quote-meta unit flex-row unit-spacing-sm align-items-center">
-                      <div class="unit-left unit-item-narrow"><img class="rounded-circle quote-img" width="60" height="60" src="images/users/user-bryan-green-60x60.jpg" alt=""/></div>
+                      <!-- <div class="unit-left unit-item-narrow"><img class="rounded-circle quote-img" width="60" height="60" src="images/users/user-bryan-green-60x60.jpg" alt=""/></div> -->
                       <div class="unit-body unit-item-wide">
                         <h5 class="quote-author text-capitalize font-weight-bold text-primary">
-                          <cite class="text-normal">Bryan Green</cite>
+                          <cite class="text-normal">Sigamani S</cite>
                         </h5>
                         <p class="quote-desc text-capitalize text-gray font-italic">Patient</p>
                       </div>
@@ -407,24 +409,7 @@
                   </div>
                 </blockquote>
               </div>
-              <div class="item">
-                <blockquote class="quote quote-classic">
-                  <div class="quote-body">
-                    <p class="font-italic text-gray-dark">
-                      <q>I would like to thank and compliment the staff at Medina, including the outpatient, laboratory staff and cardiac division during my stay at your facility on July 9th and 10th.</q>
-                    </p>
-                    <div class="quote-meta unit flex-row unit-spacing-sm align-items-center">
-                      <div class="unit-left unit-item-narrow"><img class="rounded-circle quote-img" width="60" height="60" src="images/users/user-betty-wade-60x60.jpg" alt=""/></div>
-                      <div class="unit-body unit-item-wide">
-                        <h5 class="quote-author text-capitalize font-weight-bold text-primary">
-                          <cite class="text-normal">Betty Wade</cite>
-                        </h5>
-                        <p class="quote-desc text-capitalize text-gray font-italic">Patient</p>
-                      </div>
-                    </div>
-                  </div>
-                </blockquote>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -522,54 +507,8 @@
       </section>
       <!-- Page Footer-->
       <footer class="section-relative section-top-66 section-bottom-34 page-footer bg-accent context-dark footer-classic">
-        <div class="container">
-          <div class="row justify-content-md-center text-xl-start">
-            <div class="col-md-8 col-lg-12">
-              <div class="row justify-content-sm-center row-40">
-                <div class="col-sm-10 col-lg-4 text-start order-lg-3 inset-lg-left-50">
-                  <h6>Social</h6>
-                  <hr class="text-subline">
-                  <ul class="list-inline">
-                    <li><a class="icon fa fa-facebook icon-xxs icon-circle icon-white" href="#"></a></li>
-                    <li><a class="icon fa fa-twitter icon-xxs icon-circle icon-white" href="#"></a></li>
-                    <li><a class="icon fa fa-google-plus icon-xxs icon-circle icon-white" href="#"></a></li>
-                    <li><a class="icon fa fa-rss icon-xxs icon-circle icon-white" href="#"></a></li>
-                  </ul>
-                </div>
-                <div class="col-sm-10 text-sm-start col-lg-4 order-lg-2">
-                  <h6>contact us</h6>
-                  <hr class="text-subline">
-                  <div class="text-center text-xl-start">
-                    <address class="contact-info d-md-inline-block text-start">
-                      <div class="p unit unit-spacing-xxs flex-row">
-                        <div class="unit-left"><span class="icon icon-xxs mdi mdi-phone text-white"></span></div>
-                        <div class="unit-body"><a class="text-white-70" href="tel:#">+91 93444 16662</a><span class="text-white-70"></span></div>
-                      </div>
-                      <div class="p unit flex-row unit-spacing-xxs">
-                        <div class="unit-left"><span class="icon icon-xxs mdi mdi-map-marker text-white"></span></div>
-                        <div class="unit-body"><a class="text-white-70" href="#">First Street, Arulanandha Nagar<br>Thanjavur - 613002</a></div>
-                      </div>
-                      <div class="p unit unit-spacing-xxs flex-row offset-top-16">
-                        <div class="unit-left"><span class="icon icon-xxs mdi mdi-email-outline text-white"></span></div>
-                        <div class="unit-body"><a class="text-white-70 text-java" href="mailto:#">senthilscans.tanjore@gmail.com</a></div>
-                      </div>
-                    </address>
-                  </div>
-                </div>
-                <div class="col-sm-10 col-lg-4 order-lg-1 text-center text-lg-start">
-                  <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo/senthil_logo5.png" alt="" width="77" height="26"/><img class="brand-logo-light" src="images/logo/senthil_logo5.png" alt="" width="77" height="26"/></a>
+        <div id="footer"></div>
 
-                  <p>Senthil Scans is the diagnostic center of expertise and excellence, the center of perfection and satisfaction.</p>
-                 
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container offset-top-50 offset-md-top-60">
-          <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>Senthil Scans .All right reserved. Designed by </span><span>&nbsp;</span> <a
-            href="https://www.asquare.tech" target="\blank">ASQUARE DIGITAL SOLUTIONS</a></p>
-        </div>
       </footer>
     </div>
     <div class="snackbars" id="form-output-global"></div>
