@@ -17,6 +17,7 @@
           $("#footer").load("footer.html");
       });
   </script>
+
  
 
   <style>
@@ -33,6 +34,13 @@
         .service .service-desc:hover{
           background-color: #007944 !important;
         }
+      .post-media img,
+      .post-media video {
+        width: 100%;
+        height: 240px;
+        object-fit: cover;
+      }
+    </style>
   </style>
   </head>
   <body>
@@ -54,10 +62,7 @@
               <!--RD Navbar Brand-->
               <div class="rd-navbar-aside">
                 <div class="rd-navbar-brand">
-                  <!--Brand--><a class="brand" href="index.html">
-                    <img class="brand-logo-dark" src="images/logo/senthil_logo5.png" alt="" width="77" height="26"/>
-                    <img class="brand-logo-light" src="images/logo/senthil_logo5.png" alt="" width="77" height="26"/>
-                  </a>
+                  <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo/senthil_logo5.png" alt="" width="77" height="26"/><img class="brand-logo-light" src="images/logo/senthil_logo5.png" alt="" width="77" height="26"/></a>
                 </div>
                 <div class="contacts-wrap">
                   <address class="contact-info reveal-sm-inline-block text-start offset-none">
@@ -89,48 +94,15 @@
                 <div class="rd-navbar-main-element">
                   <div class="rd-navbar-nav-wrap">
                     <ul class="rd-navbar-nav">
-                      <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a>
-                      </li>
-                      <li class="rd-nav-item "><a class="rd-nav-link" href="about.html">About</a>
-                      </li> 
-                       
-                      <li class="rd-nav-item  "><a class="rd-nav-link" href="services.html">Services</a>
-                      </li> 
-                      <li class="rd-nav-item "><a class="rd-nav-link" href="grid-gallery.html">Gallery</a>
-                        <!-- <ul class="rd-menu rd-navbar-dropdown">
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="grid-gallery.html">Grid Gallery</a>
-                          </li>
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="grid-gallery-no-padding.html">Gallery Without Padding</a>
-                          </li>
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="masonry-gallery.html">Masonry Gallery</a>
-                          </li>
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="cobbles-gallery.html">Cobbles Grid</a>
-                          </li>
-                        </ul> -->
-                      </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="blog-masonry.html">Blog</a>
-                        <!-- <ul class="rd-menu rd-navbar-dropdown">
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="blog-masonry.html">Blog Masonry</a>
-                          </li>
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="blog-modern.html">Blog Modern</a>
-                          </li>
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="blog-classic.html">Blog Classic</a>
-                          </li>
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="blog-grid.html">Blog Grid</a>
-                          </li>
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Single Post</a>
-                          </li>
-                        </ul> -->
-                      </li>
-                      
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="events.html">Events</a>
-                      </li>
-
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contacts</a>
-                      </li>
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a></li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="about.html">About</a></li> 
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="services.html">Services</a></li> 
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="grid-gallery.html">Gallery</a></li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="interestingcases.html">Interesting Cases</a></li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="events.html">Events</a></li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contacts</a></li>
                     </ul>
                   </div> 
-                  
                 </div>
               </div>
             </div>
@@ -163,9 +135,9 @@
                   <div class="row">
                     <div class="col-lg-6 section-slider-custom to-front">
                       <div class="text-lg-start">
-                        <h2>Years of<br class="d-block"> Experience
+                        <h2>12 Years of<br class="d-block"> Experience
                         </h2>
-                        <h5 class="d-none d-lg-block mw-400">Since our foundation, we've been delivering diagnostic solutions.</h5><a class="btn btn-ellipse btn-white offset-top-24" href="about.html">About Us</a>
+                        <h5 class="d-none d-lg-block mw-400">we have been delivering diagnostic solutions with good Experience.</h5><a class="btn btn-ellipse btn-white offset-top-24" href="about.html">About Us</a>
                       </div>
                     </div>
                   </div>
@@ -218,10 +190,11 @@
               <div class="sheldue-item light">
                 <div class="sheldue-item-body">
                   <div class="icon icon-xs mdi mdi-calendar-today text-white-50"></div>
-                  <h6 class="d-inline-block inset-left-10 text-white">doctors’ timetable</h6>
+                  <h6 class="d-inline-block inset-left-10 text-white">Who we are</h6>
                   <hr>
                   <div class="offset-top-24 text-gray-light">
-                    <p>The following is for guidance only to help you plan your appointment with a preferred doctor or nurse. It does not guarantee availability as the doctors or nurses may sometimes be attending to other duties.</p>
+                    <p>
+                      Senthil Scans, the popular Radiodiagnostic centre in Thanjavur is now a full-fledged, advanced centre. The centre is equipped with all state of art machines for a diagnostic centre including Ultrasound, CT scan, MRI scan, Mammogram, XRay, Laboratory, etc.,                    </p>
                   </div>
                 </div>
                 <div class="sheldue-more"><a class="btn btn-white btn-block btn-rect" href="timetable.html">view timetable</a></div>
@@ -234,7 +207,7 @@
                   <h6 class="d-inline-block inset-left-10 text-white">appointments</h6>
                   <hr>
                   <div class="offset-top-24 text-gray-light">
-                    <p>The first step towards a healthy life  is to schedule an appointment. Please contact our office by phone or complete the appointment request form.</p>
+                    <p>Please do visit to our scan center anytime to book you appointment. Call us for any queries</p>
                   </div>
                 </div>
                 <div class="sheldue-more"><a class="btn btn-white btn-block btn-rect" href="services.html">Services</a></div>
@@ -548,87 +521,151 @@
       </section>
       
       <!-- latest blog posts-->
-      <section class="section-98 section-sm-110">
+      <section class="section-lg section bg-default">
         <div class="container">
-          <h3 class="text-center text-lg-start">Latest Blog Posts</h3>
-          <div class="row justify-content-sm-center offset-top-60">
-            <div class="col-md-8 col-lg-4">
-              <!-- Post Modern-->
-              <article class="post post-modern post-modern-classic">
-                <!-- Post media-->
-                <div class="post-media"><a class="link-image" href="#"><img class="img-responsive img-cover" width="370" height="250" src="images/post-13-370x250.jpg" alt=""/></a>
+          <h3 class="text-center">Latest Events</h3>
+
+          <div class="row justify-content-sm-center">
+            <div class="col-lg-12 col-xl-12">
+              <div class="row justify-content-sm-center">
+                <div class="col-md-4">
+                  <!-- Post Modern-->
+                  <article class="post post-modern post-modern-classic">
+                    <!-- Post media-->
+                    <div class="post-media"><a class="link-image" href="event-radiology-day.html"><img class="img-responsive" src="images/Events/International Radiology Day Celebration/1.1.jpg" alt=""/></a></div>
+                    <!-- Post content-->
+                    <div class="post-content text-start">
+                      <!-- Post Title-->
+                      <div class="post-title offset-top-8">
+                        <h5 class="font-weight-bold"><a href="event-radiology-day.html">International Radiology Day Celebration</a></h5>
+                      </div>
+                    </div>
+                  </article> 
                 </div>
-                <!-- Post content-->
-                <div class="post-content text-start">
-                  <!-- Post Title-->
-                  <div class="post-title offset-top-8">
-                    <h5 class="font-weight-bold"><a href="#">Reasons to Visit a Breast Specialist</a></h5>
-                  </div>
-                  <ul class="list-inline list-inline-dashed">
-                    <li>June 21, 2023 at 8:12pm</li>
-                    <li><a class="text-primary" href="blog-masonry.html">News</a></li>
-                  </ul>
-                  <!-- Post Body-->
-                  <div class="post-body">
-                    <p>There are a lot of women that are unaware of the numerous risks associated with their health and eventually ignore the importance of visiting...</p>
-                  </div>
-                  <div class="tags group group-sm">
-                  </div>
+                <div class="col-md-4 offset-top-60 offset-sm-top-0">
+                  <!-- Post Modern-->
+                  <article class="post post-modern post-modern-classic">
+                    <!-- Post media-->
+                    <div class="post-media"><a class="link-image" href="event-pongal.html"><img class="img-responsive" src="images/Events/Pongal Celebration/4.1.jpg" alt=""/></a></div>
+                    <!-- Post content-->
+                    <div class="post-content text-start">
+                      <!-- Post Title-->
+                      <div class="post-title offset-top-8">
+                        <h5 class="font-weight-bold"><a href="event-pongal.html">Pongal Celebration</a></h5>
+                      </div>
+                    </div>
+                  </article> 
                 </div>
-              </article>
-            </div>
-            <div class="col-md-8 col-lg-4 offset-top-50 offset-md-top-0">
-              <!-- Post Modern-->
-              <article class="post post-modern post-modern-classic">
-                <!-- Post media-->
-                <div class="post-media"><a class="link-image" href="#"><img class="img-responsive img-cover" width="370" height="250" src="images/post-14-370x250.jpg" alt=""/></a>
+                <div class="col-md-4 offset-top-60 offset-sm-top-0">
+                  <!-- Post Modern-->
+                  <article class="post post-modern post-modern-classic">
+                    <!-- Post media-->
+                    <div class="post-media"><a class="link-image" href="#">
+                      <video controls autoplay muted>
+                        <source src="images/Events/Womens Day Celebration.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                     </a>
+                    </div>
+                    <!-- Post content-->
+                    <div class="post-content text-start">
+                      <!-- Post Title-->
+                      <div class="post-title offset-top-8">
+                        <h5 class="font-weight-bold"><a href="event-womans-day.html">Womans Day Celebration</a></h5>
+                      </div>
+                    </div>
+                  </article> 
                 </div>
-                <!-- Post content-->
-                <div class="post-content text-start">
-                  <!-- Post Title-->
-                  <div class="post-title offset-top-8">
-                    <h5 class="font-weight-bold"><a href="#">Picking the Right Diagnostic Services for Efficient Results</a></h5>
-                  </div>
-                  <ul class="list-inline list-inline-dashed">
-                    <li>June 21, 2023 at 8:12pm</li>
-                    <li><a class="text-primary" href="blog-masonry.html">News</a></li>
-                  </ul>
-                  <!-- Post Body-->
-                  <div class="post-body">
-                    <p>There have been a lot of cases in which people were not provided with accurate reports that eventually affected their medical treatment. There is always...</p>
-                  </div>
-                  <div class="tags group group-sm">
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="col-md-8 col-lg-4 offset-top-50 offset-md-top-0">
-              <!-- Post Modern-->
-              <article class="post post-modern post-modern-classic">
-                <!-- Post media-->
-                <div class="post-media"><a class="link-image" href="#"><img class="img-responsive img-cover" width="370" height="250" src="images/post-15-370x250.jpg" alt=""/></a>
-                </div>
-                <!-- Post content-->
-                <div class="post-content text-start">
-                  <!-- Post Title-->
-                  <div class="post-title offset-top-8">
-                    <h5 class="font-weight-bold"><a href="#">Preparing for an ECG in 8 Easy Steps: Tips From Our Diagnosticians</a></h5>
-                  </div>
-                  <ul class="list-inline list-inline-dashed">
-                    <li>June 21, 2023 at 8:12pm</li>
-                    <li><a class="text-primary" href="blog-masonry.html">News</a></li>
-                  </ul>
-                  <!-- Post Body-->
-                  <div class="post-body">
-                    <p>An ECG stands for an "electrocardiogram," which is a test that measures and records the electrical activity of the heart. It is used by doctors to obtain...</p>
-                  </div>
-                  <div class="tags group group-sm">
-                  </div>
-                </div>
-              </article>
+              </div> 
             </div>
           </div>
-          <div class="offset-top-50 text-center text-lg-start"><a class="btn btn-ellipse btn-primary" href="blog-grid.html">View all blog posts</a></div>
+        </div>
+      </section>
+
+      <section class="section-lg section bg-default">
+        <div class="container">
+          <h3 class="text-center">Interesting Cases</h3>
+
+          <div class="row justify-content-sm-center">
+            <div class="col-lg-12 col-xl-12">
+              <div class="row justify-content-sm-center">
+                <div class="col-md-4">
+                  <!-- Post Modern-->
+                  <article class="post post-modern post-modern-classic">
+                    <!-- Post media-->
+                    <div class="post-media">
+                      <a class="link-image" href="usginterestingcases.html">
+                        <img class="img-responsive" src="images/interesting cases/USG/Meckel-Gruber syndrome/IMG_20220630_1_11.jpg" alt=""/>
+                      </a>
+                    </div>
+                    <!-- Post content-->
+                    <div class="post-content text-start">
+                      <!-- Post Title-->
+                      <div class="post-title offset-top-8">
+                        <h5 class="font-weight-bold"><a href="usginterestingcases.html">USG</a></h5>
+                      </div>
+                    </div>
+                  </article> 
+                </div>
+                <div class="col-md-4">
+                  <!-- Post Modern-->
+                  <article class="post post-modern post-modern-classic">
+                    <!-- Post media-->
+                    <div class="post-media">
+                      <a class="link-image" href="event-radiology-day.html">
+                        <img class="img-responsive" src="images/interesting cases/CT/CT Angiogram Lower Limb/WhatsApp Image 2024-06-13 at 15.56.57_78b8efc7.jpg" alt=""/>
+                      </a>
+                    </div>
+                    <!-- Post content-->
+                    <div class="post-content text-start">
+                      <!-- Post Title-->
+                      <div class="post-title offset-top-8">
+                        <h5 class="font-weight-bold"><a href="event-radiology-day.html">CT</a></h5>
+                      </div>
+                    </div>
+                  </article> 
+                </div>
+                <div class="col-md-4">
+                  <!-- Post Modern-->
+                  <article class="post post-modern post-modern-classic">
+                    <!-- Post media-->
+                    <div class="post-media">
+                      <a class="link-image" href="event-radiology-day.html">
+                        <img class="img-responsive" src="images/interesting cases/Biopsy/LUNG MASS BIOPSY/45Y F/1.2.392.200036.9116.2.6.1.22545.570445509.1714994148.318963.jpg" alt=""/>
+                      </a>
+                    </div>
+                    <!-- Post content-->
+                    <div class="post-content text-start">
+                      <!-- Post Title-->
+                      <div class="post-title offset-top-8">
+                        <h5 class="font-weight-bold"><a href="event-radiology-day.html">Biopsy</a></h5>
+                      </div>
+                    </div>
+                  </article> 
+                </div>
+              </div> 
+              <div class="row justify-content-sm-left">
+                <div class="col-md-4">
+                  <!-- Post Modern-->
+                  <article class="post post-modern post-modern-classic">
+                    <!-- Post media-->
+                    <div class="post-media">
+                      <a class="link-image" href="event-radiology-day.html">
+                        <img class="img-responsive" src="images/interesting cases/Ultrasound Scan/IMG_20240613_1.jpg" alt=""/>
+                      </a>
+                    </div>
+                    <!-- Post content-->
+                    <div class="post-content text-start">
+                      <!-- Post Title-->
+                      <div class="post-title offset-top-8">
+                        <h5 class="font-weight-bold"><a href="event-radiology-day.html">Ultrasound</a></h5>
+                      </div>
+                    </div>
+                  </article> 
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <section class="section">
