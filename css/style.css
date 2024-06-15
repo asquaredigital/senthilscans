@@ -13996,7 +13996,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .footer-classic .brand img {
-	width: 152px;
+	width: 235px;
 	height: auto;
 }
 
@@ -15714,7 +15714,7 @@ html.rd-navbar-fixed-linked .page {
 .rd-navbar-classic.rd-navbar-static .rd-navbar-brand img {
 	width: auto;
 	height: auto;
-	max-width: 200px;
+	max-width: 255px;
 	max-height: 200px;
 }
 
